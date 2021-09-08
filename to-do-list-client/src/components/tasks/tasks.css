@@ -1,0 +1,33 @@
+/* form css */
+.form-control {
+    line-height: 2;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--highlight_blue);
+}
+
+.add-task-btn {
+    display: block;
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--blue);
+}
+
+.add-task-btn:hover {
+    background-color: #1A3750;
+}
+
+label {
+    margin: auto;
+}

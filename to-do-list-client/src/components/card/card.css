@@ -1,0 +1,72 @@
+/* card css */
+.to-do-card {
+    border-radius: 20px;
+    background-color: var(--highlight_lightgreen);
+    border: none;
+}
+
+.to-do-card-header {
+    background-color: rgb(0, 0, 0, 0);
+    border-bottom: none;
+}
+
+.card-body {
+    display: inline-block;
+    width: 100%;
+}
+
+.task-name-text {
+    padding: 9px;
+    font-size: 1.4rem;
+    
+}
+
+.completed {
+    text-decoration:line-through;
+}
+
+.card-icons {
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+}
+
+/* modal css */
+
+.confirm-delete-btn {
+    display: inline-block;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E55744;
+}
+
+.confirm-delete-btn:hover {
+    background-color: #D72F19;
+}
+
+.cancel-btn {
+    display: inline-block;
+    width: 45%;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    margin: auto;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #E5E5E5;
+}
+
+/* empty tasks css */
+.empty-task-text {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    text-align: center;
+}
