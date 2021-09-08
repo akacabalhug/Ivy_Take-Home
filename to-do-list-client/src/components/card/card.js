@@ -58,9 +58,17 @@ const Card = ({ tasks, handleCompletionUpdate, handleDelete, flag}) => {
                      </div>
                  </div>
             ):                 
-            <li className = "empty-task-text mt-5">
-            Let's be productive today! <br/>
-            Click the <BsPlusCircleFill size = '1.5rem' color = 'var(--green)'/> to start adding tasks.
+            <li className = "empty-task-text mt-5 ">
+                <span className = {(window.location.pathname === '/completed' ? "hide":"")}>
+                    Let's be productive today! <br/>
+                    Click the <BsPlusCircleFill size = '1.5rem' color = 'var(--green)'/> to start adding tasks.
+                </span>
+                <span className = {(window.location.pathname === '/home' ? "hide":"")}>
+                    Let's be productive today! <br/>
+                    Proceed to the To-Do page and start adding some tasks!
+                </span>
+
+               
             </li>
 
         }
